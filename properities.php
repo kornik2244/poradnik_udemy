@@ -27,7 +27,7 @@ class User{
 	}
 }
 
-$User = new User('Kornik', 'kornik123');
+$User = new User('Kornik', 'kornik12334354');
 
 //$User->register();
 
