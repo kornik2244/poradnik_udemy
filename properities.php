@@ -27,8 +27,9 @@ class User{
 	}
 }
 
-$User = new User('Kornik', 'kornik12334354');
+$User = new User('Kornik', 'kornik123');
 
+echo $User->username;
 //$User->register();
 
 //$User->login();
