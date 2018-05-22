@@ -1,5 +1,5 @@
 # poradnik_udemy
-1.Aby dodać coś do repo należy:
+1.Aby dodać coś do repo należy: <br/>
 a)git add .     <-- dodaje wszystkie pliki do commita
 b)git commit -a -m "tytul_commita"   <-- robi commit
 c)git push   <--- wypycha dane na server
