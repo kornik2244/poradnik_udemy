@@ -1,14 +1,14 @@
 # poradnik_udemy
 1.Aby dodać coś do repo należy: <br/>
-a)git add .     <-- dodaje wszystkie pliki do commita
-b)git commit -a -m "tytul_commita"   <-- robi commit
-c)git push   <--- wypycha dane na server
-2.Gitara
+a)git add .     <-- dodaje wszystkie pliki do commita <br/>
+b)git commit -a -m "tytul_commita"   <-- robi commit <br/>
+c)git push   <--- wypycha dane na server <br/>
+2.Gitara <br/>
 
-komendy
+3.Komendy <br/>
 
-cd "nazwa_folderu"  <------wchodzi do danego folderu
-cd ..               <------wychodzi z folderu
-ls                  <------sprawdza pliki lub foldery
-rm "nazwa_pliku"    <------usuwa plik
-touch "nazwa_pliku" <------tworzy plik
+cd "nazwa_folderu"  <------wchodzi do danego folderu<br/>
+cd ..               <------wychodzi z folderu<br/>
+ls                  <------sprawdza pliki lub foldery<br/>
+rm "nazwa_pliku"    <------usuwa plik<br/>
+touch "nazwa_pliku" <------tworzy plik<br/>
