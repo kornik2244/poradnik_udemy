@@ -1,29 +1,21 @@
 <?php
-	/* 
-	 $myVar1 = 'Hello ';
-	 $myVar2 = 'World';
+require 'classes/Database.php';
 
-	 $numbers = array(12,45,22,34,65);
+$database = new Database;
 
-	 print_r($numbers);
-
-	 echo $numbers[1];
-
-	 $ages = array(
-	 	"John" => 35,
-	 	"Mary" => 27,
-	 	"Bob" => 55
-	 );
-
-	 echo $ages['Mary'];
-
-	 array_pop($ages); // last array
-	 array_shift($ages); // 1 array
-
-	 print_r($ages);  
-	 */
-
-	 for($i = 0; $i <5; $i++){
-	 	echo $i;
-	 }
+$database->query('SELECT * FROM posts WHERE id = :id');
+$database->bind(':id', 2);
+$rows = $database->resultset();
+//print_r($rows);
 ?>
+<h1>Posts</h1>
+<div>
+<?php foreach($rows as $row) : ?>
+
+<div>
+	<h3> <?php echo $row['title']; ?> </h3>
+	<p>  <?php echo $row['body'] ?> </p> 
+</div>
+
+<?php endforeach; ?>
+</div>
